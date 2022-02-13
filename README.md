@@ -31,6 +31,8 @@ Run `make` to list all the possible actions to perform withing this repository.
 - https://github.com/sixty-north/cosmic-ray
 
 ## TO DO
+- Do we need setup.cfg?
+- Configure mutmut as entrypoint
 - Split in the Dockerfile running the tests to see that it works from the mutmut image
 - Use expects for example test
 - Change example test to something better
