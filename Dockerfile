@@ -6,4 +6,4 @@ WORKDIR /src
 
 COPY . .
 
-RUN pip install -r requirements.txt --no-cache-dir
+RUN pip3 install -r requirements.txt -r requirements-dev.txt --no-cache-dir

@@ -29,5 +29,11 @@ publish-new-image: tag-docker-image docker-login ## Tag and publish a new Docker
 	docker image push ${MUTMUT_IMAGE_NAME}:${CURRENT_IMAGE_VERSION}
 	docker image push ${MUTMUT_IMAGE_NAME}:latest
 
-run:
+mutmut-help: ## Show the mutmut help
 	docker run --rm mutmut-dockerized mutmut --help
+
+mutmut-connect: ## Connect to the mutmut container
+	docker run --rm -it mutmut-dockerized sh
+
+mutmut-run: ## Run mutmut against the internal example
+	docker run --rm mutmut-dockerized mutmut --paths-to-mutate=example/src/ --tests-dir=example/tests run
