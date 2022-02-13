@@ -5,6 +5,8 @@ Dockerized version of **mutmut**:
 - https://github.com/boxed/mutmut
 - https://mutmut.readthedocs.io/en/latest/
 - https://github.com/boxed/mutmut/tags
+- https://nedbatchelder.com/blog/201903/mutmut.html
+- https://blueskyjunkie.ca/articles/2020-08/discovering-mutmut
 
 ## How to start
 

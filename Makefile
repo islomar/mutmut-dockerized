@@ -36,4 +36,4 @@ mutmut-connect: ## Connect to the mutmut container
 	docker run --rm -it mutmut-dockerized sh
 
 mutmut-run: ## Run mutmut against the internal example
-	docker run --rm mutmut-dockerized mutmut --paths-to-mutate=example/src/ --tests-dir=example/tests run
+	docker run --rm mutmut-dockerized mutmut --paths-to-mutate=code/example/src/ --tests-dir=code/example/tests run

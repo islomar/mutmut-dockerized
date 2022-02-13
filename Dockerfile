@@ -2,7 +2,7 @@
 
 FROM python:3.9.10-alpine3.15
 
-WORKDIR /src
+WORKDIR /code
 
 COPY . .
 
