@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
-class CalculatorTest():
+from example.src.example import Calculator
+
+
+class TestCalculator:
 
     def test_add(self):
         calculator = Calculator()
